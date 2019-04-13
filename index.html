@@ -1,12 +1,6 @@
-extends partial/layout
-
-block container
-    include mixins/post
-    +posts()
-
-block pagination
-    include mixins/paginator
-    +home()
-
-block copyright
-    include partial/copyright
+@import './home';
+@import './passage';
+@import './set';
+@import './timeline';
+@import './about';
+@import './friend';
